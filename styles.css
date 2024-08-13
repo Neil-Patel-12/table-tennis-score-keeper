@@ -1,0 +1,46 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  background-color: rgb(157, 131, 172);
+}
+
+#outer-card {
+  margin: 30px;
+  border: 1px solid black;
+  width: 450px;
+  background-color: white;
+}
+
+#first {
+  margin: 12px;
+}
+
+#second {
+  margin: 12px;
+}
+
+.button {
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  border: 1px solid white;
+  padding: 8px 4px;
+  border-radius: 8px;
+}
+
+.button + .button {
+  margin-left: -4px;
+}
+
+#player1button {
+  background-color: rgb(110, 255, 156);
+}
+
+#player2button {
+  background-color: rgb(126, 173, 255);
+}
+
+#reset {
+  background-color: rgb(255, 84, 144);
+}
